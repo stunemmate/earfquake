@@ -1,3 +1,7 @@
 {
-  "item.earfquake.bolt_sniper_rifle": "Bolt Sniper Rifle"
+  "item.earfquake.bolt_sniper_rifle": "Bolt Sniper Rifle",
+
+  "key.earfquake.toggle_aiming_key": "Toggle Aiming",
+
+  "key.categories.earfquake": "Earfquake"
 }
