@@ -1,6 +1,7 @@
 package com.github.stunemmate.earfquake;
 
 import com.github.stunemmate.earfquake.item.ModItems;
+import com.github.stunemmate.earfquake.networking.ModPackets;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -42,7 +43,7 @@ public class Earfquake {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        ModPackets.register();
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

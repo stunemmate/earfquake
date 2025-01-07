@@ -18,6 +18,6 @@ public class ClientModHandler {
 
     @SubscribeEvent
     public static void registerKeys(RegisterKeyMappingsEvent event) {
-        event.register(KeyMappings.INSTANCE.toggleAimingKey);
+        event.register(KeyMappings.TOGGLE_AIMING_KEY);
     }
 }
